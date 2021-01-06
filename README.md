@@ -19,3 +19,6 @@ This is a basic project for developing a discord bot based on the discord.js pac
   <li>make sure nodemon is downloaded and nodejs is also downloaded beforehand</li>
 </ul>
 
+<h2>Future Updates</h2>
+Because this is merely a template, everything is bare as possible. I will, however, update with comments and any other features I come up with later on and will
+do my best to document it properly. Thank you for looking at this project; if any questions or issues, feel free to email me at jaymcariaga@gmail.com
