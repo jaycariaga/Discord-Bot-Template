@@ -4,7 +4,7 @@ This is a basic project for developing a discord bot based on the discord.js pac
 <h1>Basic Startup</h1>
 <ol>
   <li>make sure npm, nodemon, and nodejs are downloaded beforehand</li>
-  <li>npm init</li
+  <li>npm init</li>
   <li>npm i</li>
   <li>npm audit <br /><b>To check for any errors or need of updating</b></li>
   <li>If sounds do not play correctly, please also do: <b>"npm i ffmpeg-static"</b></li>
