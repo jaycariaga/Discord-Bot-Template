@@ -1,0 +1,26 @@
+{
+  "name": "jasonsbotserver",
+  "version": "1.0.0",
+  "description": "The Jason bot emulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "linstart": "node index_linux.js",
+    "dev": "nodemon index.js",
+    "lindev": "nodemon index_linux.js"
+  },
+  "author": "Jason Cariaga",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "0.0.1-security",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
