@@ -3,20 +3,6 @@ const config = require("./config.json");
 var fs = require('fs');
 
 const client = new Discord.Client();
-
-//below declared variables are the selected defaults
-/*var noun = ['I', 'You', 'We', 'Our', 'Liberals', 'BRADDAR', 'Neighbor', 'MAH N', 'Chad', 'Brad', 'I\'ma', 'DEEZ NUTZ', 'Yoshi',
-'CHUNGUS', 'Michael Jackson', 'R. Kelly', 'Sugondese', 'Daddy boutta', 'Kanye', 'Wakanda', 'Communism', 'FORG', 'The aliens', 'Hillary Clinton\'s emails'];
-
-var exclamatory = ['UWU', 'SCOOBYDOOBYDOO M O N', 'AYEEE M O N', 'YAAA MON', 'WOW! ', 'OH MAHHHH GAWD', 'AHA GOTEEEEM,',
-'B R U H .', 'AYE MAN3', 'FOOKIN HELL,', 'I\'m BOUTTA BUSTTT', 'said', 'Dang j a p s', 'Women amirite haha', 'HEEHEE OWW', 'WHAT IF', ''];
-
-var verb = ['could suck','do legal stuff','will in fact do','fucks', 'finna bust', 'kiss', 'am', 'love', 'hate', 
-'suck', 'touched', 'licked', 'exploded', 'pee', 'be', 'smash', 'FOOK', 'eat', ''];
-
-var endphrase = ['the whole frat','in the McDonald\'s parking lot...UNLESSSSS?','men','tax fraud','a fat one', 'me the hardest', 'with all mah B O I S', 'INSIDE', 'on top', 'on those kids', 'on Ligma', 'all over me', 'around Wuhan', 'my favorite band: Death Grips', 
-'in the jungle', 'with my BRADDARS', 'DEEZ NUTZ', 'on sum REAL HIP HOP' , 'temporary', 'legally of course...', 'WITH CONSENT', 'JKJK... UNLESS', 'every day', 'dem j a p s', 'WHICH IS FINEEEEE', ''];
-*/
 //this updates the current variables with entries from individual discord entries
 var noun = fs.readFileSync('./phrases/noun.txt', 'utf8').split("\r\n");
 var verb = fs.readFileSync('./phrases/verb.txt', 'utf8').split("\r\n");
